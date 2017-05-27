@@ -14,7 +14,7 @@ Source0:	https://github.com/bobbylight/%{oname}/archive/%{version}/%{name}-%{ver
 Patch1:		%{name}-%{version}-gradle-remove-coverall-plugin.patch
 BuildArch:	noarch
 
-BuildRequires:	javapackages-tools
+BuildRequires:	javapackages-local
 BuildRequires:	gradle-local
 BuildRequires:	maven-local
 BuildRequires:	checkstyle
