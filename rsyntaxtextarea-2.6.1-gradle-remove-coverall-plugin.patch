@@ -10,7 +10,7 @@
  // We require building with JDK 8 or later.  We turn off doclint since our
  // generated *TokenMakers have horrible documentation (see https://github.com/jflex-de/jflex/issues/182)
 @@ -29,22 +29,22 @@
- 		xmvn()
+ 	repositories {
  		mavenCentral()
  	}
 -	dependencies {
@@ -48,7 +48,7 @@
  
  compileJava {
  	sourceCompatibility javaVersion
-@@ -125,97 +125,97 @@
+@@ -125,96 +125,96 @@
  artifacts {
  	archives jar, javadocJar, sourceJar
  }
@@ -63,7 +63,6 @@
 +//	sign configurations.archives
 +//}
  repositories {
- 	xmvn()
  	mavenCentral()
  }
 -uploadArchives {
