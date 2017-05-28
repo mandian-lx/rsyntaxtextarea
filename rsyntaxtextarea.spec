@@ -15,7 +15,7 @@ Patch1:		%{name}-%{version}-gradle-remove-coverall-plugin.patch
 BuildArch:	noarch
 
 BuildRequires:	javapackages-local
-BuildRequires:	gradle-local
+#BuildRequires:	gradle-local
 BuildRequires:	maven-local
 BuildRequires:	checkstyle
 BuildRequires:	mvn(junit:junit)
