@@ -19,6 +19,7 @@ BuildRequires:	javapackages-local
 BuildRequires:	maven-local
 BuildRequires:	checkstyle
 BuildRequires:	mvn(junit:junit)
+BuildRequires:	x11-server-xvfb
 
 Requires:	java-headless
 
