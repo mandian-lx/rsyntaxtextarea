@@ -57,7 +57,8 @@ find . -name "*.class" -delete
 %patch1 -p1 -b .coverall
 
 %build
-xvfb-run -a %gradle_build --skip-tests
+xvfb-run -a gradle build javadoc install -x test --offline -s
+%mvn_artifact build/poms/pom-default.xml build/libs/%{name}-%{version}.jar
 
 %install
 %mvn_install -J build/docs/javadoc
